@@ -51,7 +51,6 @@ Foram identificadas vulnerabilidades críticas que comprometem severamente a seg
 ### **⚠️ Flags de Credenciais Expostas**
 | Flag | Localização | Descrição |
 |------|-------------|-----------|
-| `FLAG{p4ssw@rd_f113_disc0v3ry}` | passwords.txt | Senhas corporativas expostas |
 | `FLAG{git_cr3d3nt1418_134k}` | /.git-credentials | Token GitHub exposto |
 | `FLAG{d4t4b4s3_cr3d3nt141s_3xp0s3d}` | config/database.php.txt | Credenciais do BD públicas |
 
@@ -60,17 +59,13 @@ Foram identificadas vulnerabilidades críticas que comprometem severamente a seg
 |------|-------|-----------|
 | `FLAG{ftp_4n6nym0us_4cc3ss}` | FTP | FTP anônimo ativo |
 | `FLAG{s3cr3t_p4n3l_disc0v3ry}` | /panel.php | Painel administrativo exposto |
-| `FLAG{c0nfig_fil3_r34d}` | users.conf | Arquivo de config exposto |
-| `FLAG{h1dd3n_d4t4_1n_d4t4b4s3}` | Banco de Dados | Dados ocultos encontrados |
-| `FLAG{sql_1nj3ct10n_m4st3r}` | Parâmetros | SQL Injection |
-| `FLAG{d4t4b4s3_1nj3ct10n_m4st3r}` | Formulário login | Bypass via SQLi |
+
 
 ### **⚠️ Flags de Vulnerabilidades**
 | Flag | Tipo |
 |------|------|
 | `FLAG{b4sic_s0urc3_c0d3_insp3cti0n}` | Comentários no código expostos |
-| `FLAG{lfi_vuln3r4b1lity}` | Local File Inclusion |
-| `FLAG{xss_r3fl3ct3d_vuln3r4b1l1ty}` | XSS refletido |
+
 
 ---
 
