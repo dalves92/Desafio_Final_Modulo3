@@ -130,16 +130,7 @@ passwords.txt
 
 SSH: techcorp:TechCorp2024!
 FTP Admin: ftpadmin:ftp@dmin123
-Database: backup_user:B@cKup_S3cr3t_2024
 WiFi: TechCorp_WiFi_2024
-VPN: vpn_user:VPN_P@ssw@rd/
-
-.git-credentials
-https://admin:gh_pkt_53cr3tT0k3n_2024_TechCorp@github.com
-
-database.php
-$db_user = 'techcorp_user';
-$db_pass = 'TechCorp_DB_P@ss_2024!';
 
 ### **7.2 Configurações Vulneráveis**
 
@@ -194,7 +185,7 @@ Recomenda-se aplicar imediatamente as ações listadas e realizar um reteste for
 ├── README.md # Este arquivo
 ├── Relatorio_Pentest.docx # Relatório profissional
 ├── evidencias/ # Capturas de tela e arquivos coletados
-├── logs/ # logs de terminal, nmap, sqlmap
+├── logs/ # logs de terminal, nmap
 ├── flags/ # Registro das flags capturadas
 
 ---
