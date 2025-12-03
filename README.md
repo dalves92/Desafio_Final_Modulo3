@@ -2,10 +2,9 @@
 
 # 🛡️ TechCorp Solutions – Relatório de Teste de Intrusão (Pentest)
 
+**Versão:** 1.0 
 **Autor:** Gonçalo Quissola Dala  
-**Data do Teste:** 19–27 de Novembro de 2025  
-**Versão:** 1.0  
-**Método:** OWASP + PTES  
+**Data do Teste:** 19–27 de Novembro de 2025   
 **Tipo de Teste:** Black Box Testing  
 **Ambiente CTF:** http://98.95.207.28/
 
